@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    background-color: white;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.header-top {
+    grid-template-columns: 1 / 6;
+}
+
+.avatar {
+    height:40px;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.main-content {
+    background-color: gray;
+}
