@@ -15,6 +15,7 @@
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
 }
 .header-top {
@@ -23,6 +24,10 @@
 
 .avatar {
     height:40px;
+}
+
+.avatar-lrg {
+    height: 60px;
 }
 
 .sidebar {
