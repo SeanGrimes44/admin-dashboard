@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .container {
@@ -32,6 +33,7 @@ input[type=text] {
     border-radius: 50px;
     border-style: none;
     background-color: grey;
+    padding: 0px 15px;
 }
 
 .avatar {
@@ -85,6 +87,13 @@ button {
 
 .sidebar-option {
     display: flex;
+    font-size: 25px;
+    margin: 2vh 1vw;
+    align-items: center;
+}
+
+.sidebar-option h4 {
+    padding-left: 1vw;
 }
 
 .sidebar-title {
