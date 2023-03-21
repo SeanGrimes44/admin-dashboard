@@ -109,7 +109,38 @@ button {
 }
 
 .projects {
+ /*   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;*/
+}
 
+.projects-title {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.project-card {
+    background-color: white;
+    grid-column: 1fr;
+    grid-template-rows: 1fr;
+    margin: 25px 30px;
+}
+
+.project-card h2 {
+    color: blueviolet;
+}
+.project-card p {
+
+}
+
+.project-icon-list {
+    display: flex;
+    justify-content: right;
 }
 
 .announcements {
